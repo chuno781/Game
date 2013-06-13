@@ -1,8 +1,0 @@
---        This file contains the culturally defined natural language name
---   abbreviations for days, hours, minutes and seconds.
-
-4
-Days     :days
-Hours    :hrs
-Minutes  :mins
-Seconds  :secs
