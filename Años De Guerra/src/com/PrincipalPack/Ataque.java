@@ -103,7 +103,6 @@ public class Ataque {
 	}
 	public void detach(final PhysicsWorld mPhysicsWorld) {
 		getAnimatedSprite().registerUpdateHandler(new IUpdateHandler(){
-
 			@Override
 			public void onUpdate(float arg0) {
 			// TODO Auto-generated method stub
@@ -117,10 +116,12 @@ public class Ataque {
 				mAnimatedSprite.setVisible(false);
 				return;
 			}
+
+			mAnimatedSprite.stopAnimation();
 			app.getmSeleccionAtaque().setVisible(false);
 			setPosition(-50,-50);
 			mBody.setActive(false);
-			
+
 	
 			}
 
